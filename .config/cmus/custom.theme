@@ -1,0 +1,49 @@
+### colors
+### {{{
+
+#bottom bar where commands are inputted
+set color_cmdline_fg=white
+set color_cmdline_bg=234
+
+set color_separator=30
+
+#2nd from bottom bar, default it shows song time
+set color_statusline_bg=30
+set color_statusline_fg=black
+
+#3rd from bottom bar, song title
+set color_titleline_bg=234
+set color_titleline_fg=30
+
+#main window area
+set color_win_bg=234
+set color_win_fg=250
+
+# font color for currently playing artist/album/track when not selected
+set color_win_cur=228
+
+# color when currently playing is selected
+set color_win_cur_sel_bg=239
+set color_win_cur_sel_fg=228
+
+set color_win_dir=228
+
+# current selection in inactive window
+set color_win_inactive_cur_sel_bg=239
+set color_win_inactive_cur_sel_fg=lightblue
+
+set color_win_inactive_sel_bg=240
+set color_win_inactive_sel_fg=234
+
+# current selection in active window
+set color_win_sel_bg=240
+set color_win_sel_fg=250
+
+#the top bar
+set color_win_title_bg=30
+set color_win_title_fg=234
+
+set color_error=lightred
+set color_info=lightgreen
+### }}}
+

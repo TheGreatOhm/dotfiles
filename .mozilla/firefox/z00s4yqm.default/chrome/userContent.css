@@ -1,0 +1,14 @@
+@-moz-document url("about:blank") {
+    html body{
+        background-color: #111;
+    }
+}
+
+@-moz-document url("about:newtab") {
+    html body{
+        background-color: #000000 !important;
+        background-image: url("image.png") !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+    }
+}
