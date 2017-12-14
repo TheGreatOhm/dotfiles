@@ -120,4 +120,4 @@ fi
 # Custom Aliases
 alias view='herbstclient spawn feh -d "$(pwd)"'
 alias cd-anime='cd /media/externalhdd/my_files/videos/anime'
-alias playlist='/home/alejandro/.bin/playlist.sh'
+alias playlist='$HOME/.bin/playlist.sh'

@@ -36,11 +36,11 @@ hc keybind $Mod-Shift-Print spawn $HOME/.bin/snip.sh
 # volume controls
 hc keybind XF86AudioLowerVolume spawn ~/.bin/change_volume.sh "-3%"
 hc keybind XF86AudioRaiseVolume spawn ~/.bin/change_volume.sh "+3%"
-hc keybind XF86AudioMute spawn ~/.bin/toggle_mute.sh
+hc keybind XF86AudioMute spawn ~/.bin/mute_toggle.sh
 
 # Screen Brightness Controls
-hc keybind $Mod-F5 spawn sudo ~/.bin/lower_brightness.sh
-hc keybind $Mod-F6 spawn sudo ~/.bin/raise_brightness.sh
+hc keybind $Mod-F5 spawn sudo ~/.bin/change_brightness.sh "-100"
+hc keybind $Mod-F6 spawn sudo ~/.bin/change_brightness.sh "+100"
 
 # basic movement
 # focusing clients

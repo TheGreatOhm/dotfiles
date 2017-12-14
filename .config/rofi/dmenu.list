@@ -1,7 +1,7 @@
-firefox /opt/FirefoxQuantum/firefox
-emacs emacsclient -c
-cmus herbstclient spawn urxvt -e cmus
-transmission-gtk transmission-gtk
-pavucontrol pavucontrol
-htop herbstclient spawn urxvt -e htop
-toggle_sound_output_dev /home/alejandro/.bin/toggle_sound_output_dev.sh
+firefox;/opt/FirefoxQuantum/firefox
+emacs;emacsclient -c
+cmus;herbstclient spawn urxvt -e cmus
+transmission-gtk;transmission-gtk
+pavucontrol;pavucontrol
+htop;herbstclient spawn urxvt -e htop
+toggle_sound_output_dev;/home/alejandro/.bin/toggle_sound_output_dev.sh
