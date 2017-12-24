@@ -118,6 +118,8 @@ fi
 
 
 # Custom Aliases
+alias thumb='herbstclient spawn feh -t --thumb-width 250 --thumb-height 250 "$(pwd)"'
 alias view='herbstclient spawn feh -d "$(pwd)"'
 alias cd-anime='cd /media/externalhdd/my_files/videos/anime'
-alias playlist='$HOME/.bin/playlist.sh'
+alias fehbg='feh --bg-scale --no-fehbg'
+

@@ -18,5 +18,8 @@ redshift -O 5000 &
 # start emacs daemon
 emacs --daemon &
 
+# start notification daemon dunst
+dunst -conf $HOME/.config/dunst/dunstrc.example &
+
 # start herbstluftwm
 exec herbstluftwm --locked

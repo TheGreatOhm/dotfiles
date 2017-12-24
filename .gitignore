@@ -1,0 +1,5 @@
+# ignore temp/backup files created by text editor
+*~
+
+# ignore files in .mozilla
+.mozilla/

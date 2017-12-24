@@ -5,10 +5,12 @@ if [ -z "$1" ]; then
 		exit 1
 fi
 
-WIDTH=20
-LINES=$(cat "$1" | wc -l)
+width=20
+lines=$(cat "$1" | wc -l)
+#echo "there are $lines lines"
+prompt=""
 
-choice=$(cut -d ";" -f 1 "$1" | rofi -dmenu -lines "$LINES" -width "$WIDTH")
+choice=$(cut -d ";" -f 1 "$1" | rofi -p "$prompt" -dmenu -lines "$lines" -width "$width")
 
 #echo "choice is $choice"
 if [ -n "$choice" ]; then

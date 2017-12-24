@@ -5,14 +5,13 @@ XTerm*font: xft:DejaVuSansMono:bold:size=11
 
 XTerm.scaleHeight: 1.01
 
-#### urxvt settings
+! urxvt settings
 URxvt.scrollBar: false
 
-!URxvt*background: rgb:1e/1e/1e
 URxvt*background: rgb:1c/1c/1c
-
 URxvt*foreground: rgb:bc/bc/bc
-!URxvt*foreground: grey
+!URxvt*background: rgb:35/41/4f
+!URxvt*foreground: rgb:e1/e1/e0
 
 URxvt.font: xft:DejaVuSansMono:bold:size=11
 URxvt.scaleHeight: 1.01

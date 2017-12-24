@@ -4,4 +4,6 @@ cmus;herbstclient spawn urxvt -e cmus
 transmission-gtk;transmission-gtk
 pavucontrol;pavucontrol
 htop;herbstclient spawn urxvt -e htop
+calculator;herbstclient spawn urxvt -e bc -il
 toggle_sound_output_dev;/home/alejandro/.bin/toggle_sound_output_dev.sh
+redshift;/home/alejandro/.bin/rofi_dmenu.sh /home/alejandro/.config/rofi/dmenu-redshift.list
