@@ -67,8 +67,6 @@ if ! shopt -oq posix; then
 fi
 
 # Custom Aliases
-alias thumb='herbstclient spawn feh -t --thumb-width 250 --thumb-height 250 "$(pwd)"'
 alias view='herbstclient spawn feh -d "$(pwd)"'
-alias cd-anime='cd /media/externalhdd/my_files/Videos/anime'
 alias fehbg='feh --bg-scale --no-fehbg'
 
