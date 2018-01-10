@@ -1,3 +1,4 @@
+! xterm settings
 xterm*background: black
 xterm*foreground: grey90
 
@@ -8,10 +9,8 @@ XTerm.scaleHeight: 1.01
 ! urxvt settings
 URxvt.scrollBar: false
 
-URxvt*background: rgb:1c/1c/1c
+URxvt*background: rgb:1a/1a/1a
 URxvt*foreground: rgb:bc/bc/bc
-!URxvt*background: rgb:35/41/4f
-!URxvt*foreground: rgb:e1/e1/e0
 
 URxvt.font: xft:DejaVuSansMono:bold:size=11
 URxvt.scaleHeight: 1.01

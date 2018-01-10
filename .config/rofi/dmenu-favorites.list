@@ -1,0 +1,9 @@
+firefox;/opt/FirefoxQuantum/firefox
+emacs;emacsclient -c
+cmus;herbstclient spawn urxvt -e cmus
+transmission-gtk;transmission-gtk
+pavucontrol;pavucontrol
+htop;herbstclient spawn urxvt -e htop
+calculator;herbstclient spawn urxvt -e bc -il
+select_audio_output_dev;/home/alejandro/bin/select_audio_output_dev.sh
+redshift;/home/alejandro/bin/rofi_dmenu.sh /home/alejandro/.config/rofi/dmenu-redshift.list

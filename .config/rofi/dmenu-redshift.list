@@ -1,4 +1,4 @@
-5000;redshift -O 5000
-4000;redshift -O 4000
-3500;redshift -O 3500
+5000;redshift -O 5000 -b 0.6
+4000;redshift -O 4000 -b 0.6
+3500;redshift -O 3500 -b 0.6
 disable;redshift -x

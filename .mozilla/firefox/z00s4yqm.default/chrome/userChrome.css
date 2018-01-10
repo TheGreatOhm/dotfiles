@@ -1,32 +1,14 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* Tab bar customization 
-:root:-moz-lwtheme-brighttext {
- --chrome-background-color: #424242 !important;
- --chrome-color: #8f8f8f !important;
- --chrome-secondary-background-color: #363636 !important;
- --toolbox-border-bottom-color: #2e2e2e !important;
-}
-
-.tabbrowser-tab[visuallyselected="true"]:-moz-lwtheme {
-	color: #dddddd !important;
-}
-*/
-
 /* Remove blue accent at the top of the currently selected tab */
 .tab-line { display: none !important; }
 
-/* Remove white flash on tab load */
+/* Remove white flash on tab load 
+   Doesn't seem to work
+*/
 .browserContainer {
   background-color: #363636 !important;
 }
-
-
-/* Changes color of tab-bar and not selected tabs
-:root {
-  --chrome-background-color: #323232 !important;
-}
-*/
 
 #TabsToolbar {
     background: #1e1e1e	 !important;
@@ -55,15 +37,14 @@ tab:not([selected=”true”]) {
 	color: #b9b9b9 !important;
 }
 
-/* Change color of tab-bar font
-.tabbrowser-tab .tab-label { color: #b9b9b9 !important; }
-*/
-
 /* Change color of status panel */
 .statuspanel-label {
 	background: #323232 !important;
 	color: #b2b2b2 !important;
 }
+
+
+
 
 
 /*

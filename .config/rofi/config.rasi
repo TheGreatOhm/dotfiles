@@ -1,5 +1,10 @@
 /**
- **/
+ * Royal Sky Color theme
+ * User: dikiaap
+ * Copyright: Diki Ananta
+ *
+ * slight modifications by TheGreatOhm
+**/
 * {
     foreground:                  #bcbcbc;
     selected-normal-foreground:  #1c1c1c;

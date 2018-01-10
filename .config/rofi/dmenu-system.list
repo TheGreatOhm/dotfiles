@@ -1,0 +1,3 @@
+hibernate;sudo systemctl hibernate
+reboot;sudo reboot
+shutdown;sudo shutdown now
